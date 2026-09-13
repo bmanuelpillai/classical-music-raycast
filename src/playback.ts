@@ -25,7 +25,7 @@ export async function playTrack(track: Track): Promise<void> {
   }
 }
 
-async function stopCurrent(): Promise<void> {
+export async function stopCurrent(): Promise<void> {
   const pid = await LocalStorage.getItem<number>(PID_KEY);
   if (typeof pid === "number") {
     try {
@@ -33,5 +33,6 @@ async function stopCurrent(): Promise<void> {
     } catch {
       // already stopped, nothing to do
     }
+    await LocalStorage.removeItem(PID_KEY);
   }
 }

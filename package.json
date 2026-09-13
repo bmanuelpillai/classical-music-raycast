@@ -21,6 +21,12 @@
       "title": "Browse Playlist",
       "description": "Pick a specific classical music track to play",
       "mode": "view"
+    },
+    {
+      "name": "stop-playing",
+      "title": "Stop Playing",
+      "description": "Stop the currently playing track",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
