@@ -13,11 +13,19 @@ export interface Track {
   license: string;
 }
 
-export async function playTrack(track: Track): Promise<void> {
+export async function playQueue(tracks: Track[]): Promise<void> {
   await stopCurrent();
 
-  const filePath = path.join(environment.assetsPath, "audio", track.filename);
-  const child = spawn("afplay", [filePath], { detached: true, stdio: "ignore" });
+  const command = tracks
+    .map((track) => {
+      const filePath = path.join(environment.assetsPath, "audio", track.filename);
+      return `afplay "${filePath.replace(/"/g, '\\"')}"`;
+    })
+    .join(" && ");
+
+  // detached so the shell becomes its own process group leader; killing -pid
+  // below then kills the shell and whichever afplay it's currently running.
+  const child = spawn("/bin/sh", ["-c", command], { detached: true, stdio: "ignore" });
   child.unref();
 
   if (child.pid) {
@@ -29,7 +37,7 @@ export async function stopCurrent(): Promise<void> {
   const pid = await LocalStorage.getItem<number>(PID_KEY);
   if (typeof pid === "number") {
     try {
-      process.kill(pid);
+      process.kill(-pid);
     } catch {
       // already stopped, nothing to do
     }
