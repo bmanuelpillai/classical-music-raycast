@@ -94,5 +94,85 @@
     "filename": "mazurka-op24-no2.mp3",
     "sourceUrl": "https://archive.org/details/musopen-chopin",
     "license": "CC0 1.0 Universal (Public Domain)"
+  },
+  {
+    "id": "mozart-eine-kleine-nachtmusik",
+    "title": "Eine Kleine Nachtmusik, K. 525",
+    "composer": "Wolfgang Amadeus Mozart",
+    "filename": "mozart-eine-kleine-nachtmusik.mp3",
+    "sourceUrl": "https://archive.org/details/mozart-kv-525-string-serenade-no.-13-eine-kleine-nachtmusik",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "brandenburg-concerto-no5-mvt3",
+    "title": "Brandenburg Concerto No. 5, BWV 1050 (III. Allegro)",
+    "composer": "Johann Sebastian Bach",
+    "filename": "brandenburg-concerto-no5-mvt3.mp3",
+    "sourceUrl": "https://archive.org/details/Bach__J.S._-_Brandenb_BWV_1050_mvmt_3_",
+    "license": "Public Domain Dedication (CC publicdomain)"
+  },
+  {
+    "id": "pachelbel-canon-in-d",
+    "title": "Canon in D",
+    "composer": "Johann Pachelbel",
+    "filename": "pachelbel-canon-in-d.mp3",
+    "sourceUrl": "https://archive.org/details/PachbelCanonD",
+    "license": "Public Domain Dedication (CC publicdomain)"
+  },
+  {
+    "id": "bach-gavotte",
+    "title": "Gavotte",
+    "composer": "Johann Sebastian Bach",
+    "filename": "bach-gavotte.mp3",
+    "sourceUrl": "https://archive.org/details/gavotte_202505",
+    "license": "CC0 1.0 Universal (Public Domain)"
+  },
+  {
+    "id": "schubert-piano-trio-no1",
+    "title": "Piano Trio No. 1 in B-flat Major, D. 898",
+    "composer": "Franz Schubert",
+    "filename": "schubert-piano-trio-no1.mp3",
+    "sourceUrl": "https://archive.org/details/TrioNo.1InBFlat",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "mozart-minuet-k5",
+    "title": "Minuet in F Major, K. 5",
+    "composer": "Wolfgang Amadeus Mozart",
+    "filename": "mozart-minuet-k5.mp3",
+    "sourceUrl": "https://archive.org/details/K.5MinuetInFMajor",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "mozart-minuet-trio-k1",
+    "title": "Minuet and Trio, K. 1",
+    "composer": "Wolfgang Amadeus Mozart",
+    "filename": "mozart-minuet-trio-k1.mp3",
+    "sourceUrl": "https://archive.org/details/K.1MinuetAndTrio",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "beethoven-fur-elise",
+    "title": "Für Elise, WoO 59",
+    "composer": "Ludwig van Beethoven",
+    "filename": "beethoven-fur-elise.mp3",
+    "sourceUrl": "https://archive.org/details/FrElise_434",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "beethoven-moonlight-sonata-mvt1",
+    "title": "Moonlight Sonata, Op. 27 No. 2 (I. Adagio sostenuto)",
+    "composer": "Ludwig van Beethoven",
+    "filename": "beethoven-moonlight-sonata-mvt1.mp3",
+    "sourceUrl": "https://archive.org/details/MoonlightSonatamv.1",
+    "license": "Public Domain Mark 1.0"
+  },
+  {
+    "id": "handel-organ-concerto-op4no2-allegro",
+    "title": "Organ Concerto in B-flat Major, Op. 4 No. 2, HWV 290 (II. Allegro)",
+    "composer": "George Frideric Handel",
+    "filename": "handel-organ-concerto-op4no2-allegro.mp3",
+    "sourceUrl": "https://archive.org/details/handel-organ-concertos",
+    "license": "CC0 1.0 Universal (Public Domain)"
   }
 ]
