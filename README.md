@@ -10,7 +10,7 @@ A Raycast extension that plays public-domain classical music — shuffled, or pi
 
 ## Music
 
-22 recordings (Bach, Beethoven, Chopin, Handel, Mozart, Pachelbel, Schubert) bundled in `assets/audio/`, sourced from [archive.org](https://archive.org)'s Musopen mirror and other explicitly public-domain-licensed items. Each track's source and license are recorded in [`assets/tracks.json`](assets/tracks.json).
+22 recordings (Bach, Beethoven, Chopin, Handel, Mozart, Pachelbel, Schubert) bundled in `assets/audio/`.
 
 ## Development
 
