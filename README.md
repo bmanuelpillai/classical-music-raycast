@@ -21,3 +21,5 @@ npm run build # type-checks and produces a distributable build
 ```
 
 Playback shells out to macOS's built-in `afplay`, so this extension is macOS-only.
+
+- **Built with Claude Code**
